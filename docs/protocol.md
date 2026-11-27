@@ -7,7 +7,7 @@ Requirements covered: FR-1 to FR-5, NFR-3
 
 - TCP, UTF-8 encoded text
 - Framing: JSON Lines. One message is one JSON object followed by `\n`.
-- Maximum message size: 4096 bytes, including the trailing `\n`.
+- Maximum message size: 8192 bytes, including the trailing `\n`.
 - Every message is a JSON object with a required string field `type`.
 - Unknown extra fields are ignored.
 
@@ -87,7 +87,7 @@ Each `error` message has a machine-readable `code` and a human-readable `message
 | Code | Fatal | Meaning |
 |------|-------|---------|
 | `INVALID_JSON` | yes | The line is not valid JSON or not a JSON object |
-| `MESSAGE_TOO_LARGE` | yes | The line exceeds 4096 bytes |
+| `MESSAGE_TOO_LARGE` | yes | The line exceeds 8192 bytes |
 | `UNKNOWN_TYPE` | no | Missing or unsupported `type` |
 | `INVALID_FIELD` | no | A required field is missing or violates the field rules |
 | `NOT_LOGGED_IN` | no | The request requires login first |
