@@ -1,1 +1,1 @@
-https://jhj3865447.atlassian.net/wiki/spaces/~712020dcdf9bb5305b4590bd4ef820bcd544fd/pages/98324/Multi-Client+Chat+System+SRS?atlOrigin=eyJpIjoiMzQyZjQ3OGM0ZTRlNDNmN2FlNDMwMjcxOTQxYzllYjgiLCJwIjoiYyJ9&xpis=eyJicmlkZ2UiOiJzbWFydExpbmtzIiwiaWQiOiIxNzk1MjY5MDcyMzE2Iiwic291cmNlIjoiamlyYS1KU1cifQ%3D%3D 
+https://joonyjin.atlassian.net/wiki/x/CwAD
